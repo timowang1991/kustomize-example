@@ -46,3 +46,8 @@ docker run --rm -v $(pwd):/src k8s.gcr.io/kustomize/kustomize:v3.8.7 build /src/
         ├── kustomization.yaml
         └── map.yaml
 ```
+
+<br>
+
+# Reference
+* [kubernetes-sigs / kustomize](https://github.com/kubernetes-sigs/kustomize/tree/master/examples/multibases)
