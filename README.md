@@ -21,7 +21,7 @@ kustomize build overlays/staging
 kustomize build overlays/production
 ```
 
-* using docker
+* or use docker
 ```bash
 docker run --rm -v $(pwd):/src k8s.gcr.io/kustomize/kustomize:v3.8.7 build /src/base
 docker run --rm -v $(pwd):/src k8s.gcr.io/kustomize/kustomize:v3.8.7 build /src/overlays/staging
