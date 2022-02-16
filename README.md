@@ -49,5 +49,16 @@ docker run --rm -v $(pwd):/src k8s.gcr.io/kustomize/kustomize:v3.8.7 build /src/
 
 <br>
 
+# Other useful kustomize commands
+* set image
+```bash
+cd base/
+kustomize edit set image monopole/hello:1=monopole/hello:5
+cat kustomization.yaml  # you should see the image section is new
+cd -
+```
+
+<br>
+
 # Reference
 * [kubernetes-sigs / kustomize](https://github.com/kubernetes-sigs/kustomize/tree/master/examples/multibases)
