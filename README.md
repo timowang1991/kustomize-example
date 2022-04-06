@@ -1,5 +1,6 @@
 # Prerequisites
 * [kustomize](https://kubectl.docs.kubernetes.io/installation/kustomize/) installed or docker installed
+  * 2022/4/6 Update: We can now use `kubectl kustomize ...` or `kubectl apply -k <path/to/kustomization.yaml>`
 
 <br/>
 
